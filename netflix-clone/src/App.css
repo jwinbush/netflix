@@ -1,0 +1,7 @@
+*{
+  margin: 0; /* gets rid of imaginary margins */
+}
+
+.app {
+  background-color: #2e2822;
+}

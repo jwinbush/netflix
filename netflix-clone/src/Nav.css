@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.nav {
+    position: fixed;
+    top: 0;
+    display: flex; 
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+    justify-content: space-between;
+    z-index: 1;
+    /* Animations */
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.home {
+    color: white;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    left: 15%;
+    position: fixed;
+    top: 10px;
+}
+.mystuff {
+    color: white;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    left: 25%;
+    position: fixed;
+    top: 10px;
+}
+.shows {
+    color: white;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    left: 35%;
+    position: fixed;
+    top: 10px;
+}
+.movies {
+    color: white;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    left: 45%;
+    position: fixed;
+    top: 10px;
+}
+.nav__black {
+    background-color: rgba(0, 0, 0, 0.93);
+}
+
+.nav__logo {
+    color: rgb(200, 169, 76);
+    line-height: 1.3;
+    padding-top: 0.5rem;
+    font-size: 1.8rem;
+    position: fixed;
+    top: 10px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.nav__avatar {
+    position: fixed;
+    width: 30px;
+    right: 20px;
+    object-fit: contain;
+    border-radius: 50%;
+}
